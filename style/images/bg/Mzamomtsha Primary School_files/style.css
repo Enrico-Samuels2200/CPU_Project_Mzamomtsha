@@ -1,0 +1,95 @@
+/*Task 15 
+  Capstone task 2 (part: 6/6)
+  #Code for task 15 begins at line 376.
+*/
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background: url("images/bg/bg.jpg");
+    /*Background colours/images for all pages.*/
+    background-size: cover;
+}
+
+nav {
+    top: 0;
+    position: sticky;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.navContainer a{
+    margin-top: 1%;
+    margin-right: 5%;
+    padding: 5px;
+    font-size: 25px;
+    border: 2px solid rgb(48, 64, 212);
+    border-radius: 10px;
+    float: right;
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+    background-color:  rgba(59, 52, 37, 0.534);
+    transition: ease-in 0.2s;
+}
+
+.navContainer a:hover {
+    background-color: rgba(59, 52, 37, 0.434);
+    border: 1px solid rgb(48, 72, 212);
+    padding: 5.5px;
+    font-size: 28px;
+    color: rgb(52, 179, 252);
+    box-shadow: 0 0 15px rgb(7, 252, 240);
+}
+
+/*Home page*/
+/*(Styles homepages text.)*/
+.navbar {
+    width: 100%;
+    background: #964000;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+}
+
+.navbar nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 60px;
+}
+
+.button {
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.btn {
+    /*Padding for all images and buttons.*/
+    text-decoration: none;
+    border: 1px solid #fff;
+    margin-right: 40px;
+    padding: 10px 30px;
+    color: gold;
+    font-size: 30px;
+    transition: 0.6s ease;
+}
+
+.btn:hover {
+    border: 3px solid;
+    color: #fff;
+    padding: 15px 35px;
+    opacity: 0.9;
+}
+
+.landH {
+    color: rgb(0, 255, 234);
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 50px;
+    font-family: Century Gothic;
+}
